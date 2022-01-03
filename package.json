@@ -1,6 +1,6 @@
 {
   "name": "net.pk1234.node_references_editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Node references editor",
   "description": "An editor window node based tool for setting up object references across components.",
   "unity": "2020.1",
