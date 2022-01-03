@@ -145,7 +145,7 @@ namespace NodeReferencesEditor
         }
 
         // Unity functions
-        [MenuItem("GameObject/Custom node editor", false, 13)]
+        [MenuItem("GameObject/Node references editor", false, 13)]
         static void ShowEditor()
         {
             if (Selection.activeGameObject == null)
@@ -161,7 +161,7 @@ namespace NodeReferencesEditor
             editor.wantsMouseMove = true;
         }
 
-        [MenuItem("CONTEXT/Transform/Custom node editor", false, 1011)]
+        [MenuItem("CONTEXT/Transform/Node references editor", false, 1011)]
         static void ShowEditorAlt(MenuCommand command)
         {
             if (Selection.activeGameObject == null)
