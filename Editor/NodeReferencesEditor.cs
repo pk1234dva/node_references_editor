@@ -587,7 +587,7 @@ namespace NodeReferencesEditor
                 // Rest of scan stays at same level
                 do
                 {
-                    if (serializedProperty.propertyType == SerializedPropertyType.ObjectReference && serializedProperty.type.ToUpper().Contains(_referencesTypeFilter))
+                    if (serializedProperty.displayName != "Script" && serializedProperty.propertyType == SerializedPropertyType.ObjectReference && serializedProperty.type.ToUpper().Contains(_referencesTypeFilter))
                     {
                         fields[i].Add(serializedProperty.Copy());
                         fieldsNames[i].Add(serializedProperty.displayName);
